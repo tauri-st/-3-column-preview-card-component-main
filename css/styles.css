@@ -25,7 +25,7 @@ h3 {
 }
 
 p {
-    color: #FFFFFF;
+    color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca';
     font-size: .9375em;
     line-height: 1.6em;
@@ -46,11 +46,21 @@ main {
 
 .content-wrapper > div {
     display: flex;
+    flex-basis: 350px;
     flex-flow: column wrap;
     justify-content: space-around;
     height: 440px;
     padding: 50px;
     width: 65%;
+}
+
+.content-wrapper > div h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.content-wrapper > div p {
+    
 }
 
 .card-one {
@@ -66,15 +76,16 @@ main {
 }
 
 input[type=button] {
-    border-radius: 20%;
     font-family: 'Lexend Deca';
-    width: 70%;
-    padding: 20px 0;
+    width: 60%;
+    padding: 14px 0;
+    margin-top: 5px;
     background-color: hsl(0, 0%, 95%);
-    font-size: 1.125em;
+    font-size: 1em;
     color: hsl(31, 77%, 52%);
     border: none;
     text-align: center;
+    border-radius: 25px / 22px;
   }
 
 .attribution {
