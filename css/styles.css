@@ -86,6 +86,14 @@ input[type=button] {
     border-radius: 25px / 22px;
   }
 
-.attribution {
+.card-two input[type=button] {
+    color: hsl(184, 100%, 22%);
+}
 
+.card-three input[type=button] {
+    color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+ font-size: 24px;
 }
