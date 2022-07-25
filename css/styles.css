@@ -46,11 +46,12 @@ main {
 
 .content-wrapper > div {
     display: flex;
+    flex-basis: 240px;
     flex-flow: column wrap;
     justify-content: space-between;
+    border-radius: 10px;
     height: 340px;
     padding: 50px;
-    flex-basis: 240px;
 }
 
 .content-wrapper > div h3 {
@@ -73,27 +74,68 @@ main {
     background-color: hsl(179, 100%, 13%);
 }
 
-input[type=button] {
+.button {
     font-family: 'Lexend Deca';
     width: 60%;
     padding: 14px 0;
     margin-bottom: 10px;
     background-color: hsl(0, 0%, 95%);
     font-size: 1em;
-    color: hsl(31, 77%, 52%);
     border: none;
     text-align: center;
     border-radius: 25px / 22px;
+    text-decoration: none;
   }
+
+  a.button:hover {
+    border: 3px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    padding: 11px 0;
+    text-decoration: none;
+    width: 58%;
+  }
+
+.card-one input[type=button] {
+    color: hsl(31, 77%, 52%);  
+}
+
+.card-one a.button:hover {
+    background-color: hsl(31, 77%, 52%);
+}
 
 .card-two input[type=button] {
     color: hsl(184, 100%, 22%);
+}
+
+.card-two a.button:hover {
+    background-color: hsl(184, 100%, 22%);
 }
 
 .card-three input[type=button] {
     color: hsl(179, 100%, 13%);
 }
 
+.card-three a.button:hover {
+    background-color: hsl(179, 100%, 13%);
+}
+
 .attribution {
  font-size: 24px;
+}
+
+@media (min-width: 1200px) {
+    .content-wrapper > div {
+        flex-basis: 210px;
+        height: 400px;
+        margin-right: -10px;
+    }
+
+    .button {
+        margin-bottom: 0;
+        width: 65%;
+    }
+
+    .content-wrapper > div p {
+        padding-bottom: 50px;
+    }
 }
