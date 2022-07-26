@@ -3,7 +3,7 @@ html {
   }
   
 body {
-font-size: 1em;
+    font-size: 1em;
 }
 
 img {
@@ -52,14 +52,6 @@ main {
     border-radius: 10px;
     height: 340px;
     padding: 50px;
-}
-
-.content-wrapper > div h3 {
-    
-}
-
-.content-wrapper > div p {
-    
 }
 
 .card-one {
@@ -123,7 +115,13 @@ main {
  font-size: 24px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 648px) {
+    body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    
     .content-wrapper > div {
         flex-basis: 210px;
         height: 400px;
