@@ -48,9 +48,11 @@ This is my first truly independent project utilizing Flexbox, and I was definite
 
 I used Codepen and CSS Tricks to help me understand more about buttons because I have never used active states before.
 
-At some point I was baffled to realize that the cards themselves had rounded corners. I always assumed shapes like this were set on a graphic but of course not! Messing with border-radius is fun but I don't understand it.
+At some point I was baffled to realize that the cards themselves had rounded corners. I always assumed shapes like this were set on a graphic but of course not! Messing with border-radius is fun but I don't understand the ratios well yet.
 
 I'm proud that I recognized the desktop cards are overlapping and adjusted the margins to make them negative to achieve that effect.
+
+**I got feedback and looked at the JPEG design which (vs the Figma comp) clearly shows that the center card has no rounded corners and only the outer corners do. Feedback also pointed out to me that my body element was not aligned in the center for the desired clear effect. :) The margins are NOT overlapped.
 
 ### Useful resources
 
