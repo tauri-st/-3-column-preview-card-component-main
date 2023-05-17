@@ -13,7 +13,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -34,6 +33,11 @@ Users should be able to:
 - Solution URL: [Github Website](https://tauri-st.github.io/-3-column-preview-card-component-main/)
 
 ## My process
+
+1. Laid down semantic HTML and arranged the DOM according to order of elements in mobile-first development
+2. Pulled in colors, fonts, and all major CSS properties
+3. Used Flexbox in order to create layout of elements
+4. Adapted for Desktop layout
 
 ### Built with
 
